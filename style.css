@@ -1,0 +1,39 @@
+header{
+    padding: 16px;
+    background: green;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar nav{
+    width: 80%;
+}
+.navbar nav ul{
+    display: flex;
+}
+.navbar nav ul li{
+    margin-right: 16px;
+}
+.navbar nav ul li:last-child{
+    margin-right: 0;
+}
+.navbar nav ul li a{
+    padding: 16px 0;
+    color: #1e4566;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+}
+
+.navbar nav ul li:hover a,
+.navbar nav ul li.active a{
+    border-bottom: solid 2px #1e4566;
+}
+
+.article-container{
+background: black;
+color: white;
+padding: 20px 40px;
+}
